@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>University Website Design - Jaykeyz Hub</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+        <h1>About Us</h1>
+</section>
+
+<!-------- about us content -------->
+
+<section class="about-us">
+
+    <div class="row">
+		<div class="about-col">
+			<h1>We Are The World Largest University</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.pellentesque aliquet turpis nulla, eleifend faucibus est sullicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+			<a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+	</div>
+		<div class="about-col">
+			 <img src="conference.png">
+		</div>
+	</div>
+
+
+</section>
+
+
+
+
+<!------- Footer ------>
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.pellentesque aliquet turpis nulla, eleifend faucibus est<br>sullicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+	<div class="icons">
+		<span class="iconify" data-icon="akar-icons:facebook-fill"></span>
+		<span class="iconify" data-icon="akar-icons:twitter-fill"></span>
+		<span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+		<span class="iconify" data-icon="akar-icons:linkedin-box-fill"></span>
+	</div>
+	<p>Made With <span class="iconify heart" data-icon="ant-design:heart-filled"></span> by Jaykeyz Hub</p>
+</section>
+
+
+
+
+<!------JavaScript for Toggle Me------->
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+<script>
+
+	var navLinks = document.getElementById("navLINKS");
+    function showmenu(){
+		navLinks.style.right ="0";
+	}
+	function hidemenu(){
+        navLinks.style.right ="200px";
+	}
+
+</script>
+
+</body>
+</html>
